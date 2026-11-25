@@ -136,18 +136,6 @@ pip install torch transformers peft sentence-transformers faiss-gpu \
 - Combining many weak and diverse views (text, image, pretrained, fine-tuned) with **consensus features** improves robustness.
 - Memory-aware engineering: batched GPU search, leave-one-out handling, and careful leakage control.
 
-## 🔮 Future Improvements
-
-- Out-of-fold KNN features with proper K-fold stacking
-- Hyperparameter search (Optuna) for blend weights instead of hand-tuned values
-- Fine-tune a vision-language model end to end
-- Targeted handling of high-price outliers
-
----
-
-## 🙏 Acknowledgements
-
-The methodology is inspired by the [Amazon ML Challenge 2023 winning solution](https://github.com/pj-mathematician/Amazon-ML-Challenge-2023/blob/main/amazon-ml-challenge-2023-winner-solution.ipynb) (embedding-based features, KNN statistics, ensemble blending), extended here to a multimodal setting with newer embedding models.
 
 ## 👤 Author
 
